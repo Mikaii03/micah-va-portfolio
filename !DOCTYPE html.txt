@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Micah Lea Malala - Virtual Assistant Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8f8f8;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        .section-title {
+            @apply text-3xl font-bold text-gray-800 mb-6 border-b-2 border-purple-500 pb-2;
+        }
+        .card {
+            @apply bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300;
+        }
+        .skill-item {
+            @apply bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-medium mr-2 mb-2 inline-block;
+        }
+        .experience-item {
+            @apply mb-6 pb-4 border-b border-gray-200 last:border-b-0 last:pb-0;
+        }
+        .experience-title {
+            @apply text-xl font-semibold text-gray-700;
+        }
+        .experience-duration {
+            @apply text-sm text-gray-500 mb-2;
+        }
+        .ats-keyword {
+            font-weight: 600; /* Slightly bolder for emphasis, but not too much to disrupt flow */
+            color: #5a20c2; /* A subtle purple to highlight without being distracting */
+        }
+        .profile-image {
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid #8B5CF6;
+            box-shadow: 0 0 0 8px rgba(139, 92, 246, 0.2);
+        }
+    </style>
+</head>
+<body class="antialiased">
+    <div class="container">
+        <!-- Header Section -->
+        <header class="text-center py-10 bg-gradient-to-r from-purple-600 to-indigo-700 text-white rounded-xl shadow-md mb-10">
+            <div class="flex flex-col items-center">
+                <img src="/_api/file/uploaded:506937272_693950373628576_7304014975465517599_n.jpg-fde16f9d-8801-4fb9-8adb-dba9632676ae" alt="Micah Lea Malala" class="profile-image mb-4">
+                <h1 class="text-5xl font-extrabold mb-2">Micah Lea Damian Malala</h1>
+                <p class="text-2xl font-light">Detail-oriented & Reliable <span class="ats-keyword">Virtual Assistant</span></p>
+                <div class="mt-4 flex flex-wrap justify-center gap-4 text-lg">
+                    <a href="mailto:micahleamalala@gmail.com" class="hover:underline flex items-center"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/></svg>micahleamalala@gmail.com</a>
+                    <a href="https://www.linkedin.com/in/micah-lea-malala-183690252" target="_blank" rel="noopener noreferrer" class="hover:underline flex items-center"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>LinkedIn</a>
+                    <span class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/></svg>San Felipe, Zambales, Philippines</span>
+                    <span class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.774a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>09186602154 / 09541972143</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Professional Summary Section -->
+        <section class="mb-10 card">
+            <h2 class="section-title">Professional Summary</h2>
+            <p class="text-gray-700 text-lg">
+                Detail-oriented and reliable <span class="ats-keyword">Virtual Assistant</span> with <span class="ats-keyword">3+ years of experience</span> in <span class="ats-keyword">eCommerce support</span>, <span class="ats-keyword">data entry</span>, <span class="ats-keyword">customer service</span>, and <span class="ats-keyword">administrative tasks</span>. Skilled in tools like <span class="ats-keyword">Shopify</span>, <span class="ats-keyword">Gmail</span>, <span class="ats-keyword">Google Workspace</span>, <span class="ats-keyword">Microsoft Office</span>, <span class="ats-keyword">Canva</span>, and <span class="ats-keyword">Slack</span>. Proven ability to <span class="ats-keyword">manage multiple priorities</span>, <span class="ats-keyword">respond quickly to customer inquiries</span>, and provide <span class="ats-keyword">day-to-day support to business owners and teams</span>. Currently seeking a <span class="ats-keyword">remote position</span> to bring value through efficient, professional service.
+            </p>
+        </section>
+
+        <!-- Core Skills & Tools Section -->
+        <section class="mb-10 card">
+            <h2 class="section-title">Core Skills & Tools</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div>
+                    <h3 class="font-semibold text-lg mb-2 text-gray-700">Customer Service</h3>
+                    <div class="flex flex-wrap">
+                        <span class="skill-item">Email & chat support</span>
+                        <span class="skill-item">Handling refunds</span>
+                        <span class="skill-item">Order tracking</span>
+                        <span class="skill-item">Returns management</span>
+                        <span class="skill-item">Customer satisfaction</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-lg mb-2 text-gray-700">eCommerce Support</h3>
+                    <div class="flex flex-wrap">
+                        <span class="skill-item">Shopify order processing</span>
+                        <span class="skill-item">Product listings</span>
+                        <span class="skill-item">Basic fulfillment</span>
+                        <span class="skill-item">Supplier coordination</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-lg mb-2 text-gray-700">Administrative Tasks</h3>
+                    <div class="flex flex-wrap">
+                        <span class="skill-item">Calendar management</span>
+                        <span class="skill-item">Inbox organization</span>
+                        <span class="skill-item">Document preparation</span>
+                        <span class="skill-item">File organization</span>
+                        <span class="skill-item">Data entry</span>
+                        <span class="skill-item">Appointment coordination</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-lg mb-2 text-gray-700">Tech Proficiency</h3>
+                    <div class="flex flex-wrap">
+                        <span class="skill-item">Gmail ⭐⭐⭐⭐⭐</span>
+                        <span class="skill-item">Google Workspace ⭐⭐⭐⭐⭐</span>
+                        <span class="skill-item">Microsoft Office ⭐⭐⭐⭐☆</span>
+                        <span class="skill-item">Shopify ⭐⭐⭐⭐☆</span>
+                        <span class="skill-item">Slack ⭐⭐⭐⭐☆</span>
+                        <span class="skill-item">Discord ⭐⭐⭐⭐☆</span>
+                        <span class="skill-item">Canva ⭐⭐⭐☆☆</span>
+                        <span class="skill-item">Notion (basic) ⭐⭐⭐☆☆</span>
+                        <span class="skill-item">Google Translate ⭐⭐⭐☆☆</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-lg mb-2 text-gray-700">Soft Skills</h3>
+                    <div class="flex flex-wrap">
+                        <span class="skill-item">Organized</span>
+                        <span class="skill-item">Dependable</span>
+                        <span class="skill-item">Fast learner</span>
+                        <span class="skill-item">Proactive communicator</span>
+                        <span class="skill-item">Multitasking</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Experience Section -->
+        <section class="mb-10 card">
+            <h2 class="section-title">Professional Experience</h2>
+
+            <div class="experience-item">
+                <h3 class="experience-title">Virtual Assistant – Drop shipping Part-time Role</h3>
+                <p class="experience-duration">Remote | December 2024 – June 2025</p>
+                <ul class="list-disc list-inside text-gray-700 ml-4">
+                    <li>Responded to <span class="ats-keyword">customer inquiries</span> via email and chat.</li>
+                    <li>Assisted with <span class="ats-keyword">order updates and tracking</span>.</li>
+                    <li>Coordinated with <span class="ats-keyword">suppliers for replacements/refunds</span>.</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <h3 class="experience-title">Customer Support & Project Manager Part-time Role</h3>
+                <p class="experience-duration">Remote | November 2024 – June 2025</p>
+                <ul class="list-disc list-inside text-gray-700 ml-4">
+                    <li>Led <span class="ats-keyword">communications between team and clients</span>.</li>
+                    <li>Oversaw daily <span class="ats-keyword">task assignments</span> and <span class="ats-keyword">customer concerns</span>.</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <h3 class="experience-title">Customer Support / Fulfillment VA (Part-Time)</h3>
+                <p class="experience-duration">Remote | April 2024 – November 2024</p>
+                <ul class="list-disc list-inside text-gray-700 ml-4">
+                    <li>Managed <span class="ats-keyword">Shopify orders</span>, emails, and <span class="ats-keyword">fulfillment tickets</span>.</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <h3 class="experience-title">General Customer Service VA (Part-Time)</h3>
+                <p class="experience-duration">Remote | June 2024 – October 2024</p>
+                <ul class="list-disc list-inside text-gray-700 ml-4">
+                    <li>Answered <span class="ats-keyword">support inquiries</span> and ensured <span class="ats-keyword">customer satisfaction</span>.</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <h3 class="experience-title">E-commerce Support VA</h3>
+                <p class="experience-duration">Remote | August 2023 – February 2024</p>
+                <ul class="list-disc list-inside text-gray-700 ml-4">
+                    <li>Used templates and personalized replies to <span class="ats-keyword">support customers</span>.</li>
+                    <li>Tracked deliveries and <span class="ats-keyword">resolved post-sale concerns</span>.</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <h3 class="experience-title">Admin Support – Law Firm</h3>
+                <p class="experience-duration">Remote | January 2023 – January 2024</p>
+                <ul class="list-disc list-inside text-gray-700 ml-4">
+                    <li>Handled <span class="ats-keyword">file organization</span>, <span class="ats-keyword">data entry</span>, and <span class="ats-keyword">appointment coordination</span>.</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <h3 class="experience-title">Virtual Assistant Trainee – The VA Camp</h3>
+                <p class="experience-duration">Online | October 2022</p>
+                <ul class="list-disc list-inside text-gray-700 ml-4">
+                    <li>Hands-on training in <span class="ats-keyword">email</span>, <span class="ats-keyword">calendar</span>, <span class="ats-keyword">document & admin support</span>.</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <h3 class="experience-title">Production Operator – NICERA Philippines, Inc.</h3>
+                <p class="experience-duration">On – Site | April 2021 – June 2022</p>
+                <ul class="list-disc list-inside text-gray-700 ml-4">
+                    <li>Operated machinery and ensured <span class="ats-keyword">product quality</span>.</li>
+                    <li>Collaborated with team members to meet <span class="ats-keyword">production targets</span>.</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <h3 class="experience-title">Cashier – Malala’s Store</h3>
+                <p class="experience-duration">On- Site | September 2018 – January 2021</p>
+                <ul class="list-disc list-inside text-gray-700 ml-4">
+                    <li>Managed daily <span class="ats-keyword">cash transactions</span> and provided excellent <span class="ats-keyword">customer service</span>.</li>
+                    <li>Performed <span class="ats-keyword">multitasking</span>, handling <span class="ats-keyword">inventory</span>, <span class="ats-keyword">customer inquiries</span>, and <span class="ats-keyword">basic accounting</span>.</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <h3 class="experience-title">Production Operator – Nidec Philippi
